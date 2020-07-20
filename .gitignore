@@ -1,7 +1,5 @@
-0-main.c
-0-node
+
+[0-99]-main.c
 binary_tree_print.c
-test.drawio
-task1.drawio
-1-main.c
+[a-z]*.drawio
 1-left
