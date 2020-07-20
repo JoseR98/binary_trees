@@ -1,5 +1,5 @@
 
-[0-99]-main.c
+*main.c
 binary_tree_print.c
 [a-z]*.drawio
 1-left
@@ -12,3 +12,5 @@ binary_tree_print.c
 7-in
 8-post
 9-height
+10-depth
+11-size
