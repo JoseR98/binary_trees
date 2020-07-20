@@ -4,3 +4,5 @@ binary_tree_print.c
 [a-z]*.drawio
 1-left
 3-del
+0-node
+2-right
