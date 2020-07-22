@@ -9,15 +9,11 @@ binary_tree_t *binary_trees_ancestor(const binary_tree_t *first,
 const binary_tree_t *second)
 {
 	binary_tree_t *temp;
-	binary_tree_t *ancestor = NULL;/*, *root;*/
-	/*int base_case = 0;*/
-
-	/*depth_first = binary_tree_depth(first);
-	depth_second = binary_tree_depth(second);*/
+	binary_tree_t *ancestor = NULL;
 
 	if (first == NULL && second == NULL)
 		return (NULL);
-	
+
 	while (first != NULL)
 	{
 		temp = (binary_tree_t *) second;
