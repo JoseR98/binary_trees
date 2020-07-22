@@ -95,9 +95,9 @@ const binary_tree_t *second)
 		return (NULL);
 
 	root = find_root(first);
-	if ((root->left->n == first->n) || (root->right->n == second->n))
+	if ((root->left->n == first->n) && (root->right->n == second->n))
 		base_case = 1;
-	if ((root->left->n == second->n) || (root->right->n == first->n))
+	if ((root->left->n == second->n) && (root->right->n == first->n))
 		base_case = 1;
 	if (samesubtree(root, first->n, second->n) == 1 || base_case == 1)
 	{
